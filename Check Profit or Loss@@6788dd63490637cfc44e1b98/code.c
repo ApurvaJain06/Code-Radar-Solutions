@@ -8,6 +8,6 @@ int main() {
     else if(cp<=sp)
     {printf("Profit");}
     else
-    {printf("No Profit No Loss")}
+    {printf("No Profit No Loss");}
     return 0;
 }printf("%s", welcome());
