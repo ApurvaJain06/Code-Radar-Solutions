@@ -1,14 +1,18 @@
 #include <stdio.h>
-
 int main() {
-    char Light;
-    scanf("%c",&Light);
-    if(Light=='R')
-    {printf("Stop");}
-    else if(Light=='G')
-    {printf("Go");}
-    else if(Light=='Y')
-    {printf("Slow Down");}
+    char L;
+    scanf("%c",&L);
+    if(L=='R')
+    {printf("Stop");
+    }
+    else if(L=='G')
+    {printf("Go");
+    }
+    else if(L=='Y')
+    {printf("Slow Down");
+    }
+    else
+    {printf("Invalid input");}
     }
     return 0;
 }
