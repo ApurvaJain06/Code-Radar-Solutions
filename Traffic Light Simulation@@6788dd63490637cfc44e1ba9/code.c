@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char light;
+    char Light;
     scanf("%c",&Light);
     if(Light=='R')
     {printf("Stop");}
