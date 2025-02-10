@@ -5,8 +5,8 @@ int main()
     scanf("%d",&N);
     for (i=0;i<=N-1;i++)
     {
-        for(j=2;j>=N-i;j--)
-        {printf("_");}
+        for(j=2;j>=N-1-i;j--)
+        {printf(" ");}
         for(k=1;k<=2*i+1;k+=2)
         {printf("*");}
         printf("\n");
