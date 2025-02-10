@@ -5,9 +5,9 @@ int main()
     scanf("%d",&N);
     for (i=0;i<=N-1;i++)
     {
-        for(j=N-1;j>=0;j--)
+        for(j=2;j>=N-i;j--)
         {printf(" ");}
-        for(k=1;k<=2*(N-1)+1;k+=2)
+        for(k=1;k<=2*i+1;k+=2)
         {printf("*");}
         printf("\n");
     }
