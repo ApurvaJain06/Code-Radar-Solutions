@@ -3,9 +3,9 @@ int main()
 {
     int N,i,j,k;
     scanf("%d",&N);
-    for (i=0;i<=N-1;i++)
+    for (i=1;i<=N;i++)
     {
-        for(j=i;j<=N-i-2;j++)
+        for(j=1;j<=N-i;j++)
         {printf(" ");}
         for(k=1;k<=(2*i)+1;k+=2)
         {printf("*");}
