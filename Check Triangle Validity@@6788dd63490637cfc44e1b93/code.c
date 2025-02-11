@@ -7,7 +7,7 @@ int main()
     if(a+b>c || b+c>a || a+c>b)
     {"printf("Valid");}
     else
-    {{"printf("Inalid");}}
+    {"printf("Invalid");}
     
     return 0;
 }
