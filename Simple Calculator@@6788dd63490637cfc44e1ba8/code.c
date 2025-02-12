@@ -10,8 +10,9 @@ else if(c=='-')
 {d=a-b;}
 else if(c=='*')
 {d=a*b;}
-else if{c=='/'}
+else if(c=='/')
 {d=a/b;}
+else{}
 printf("%d",d);
 return 0;
 }
