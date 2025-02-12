@@ -12,9 +12,6 @@ else if(c=='*')
 {d=a*b;}
 else if{c=='/'}
 {d=a/b;}
-printf("%d",d)
-
-
-
+printf("%d",d);
 return 0;
 }
