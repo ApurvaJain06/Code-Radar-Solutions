@@ -12,7 +12,7 @@ else if(c=='*')
 {d=a*b;}
 else if{c=='/'}
 {d=a/b;}
-
+printf("%d",d)
 
 
 
