@@ -1,9 +1,13 @@
 #include <stdio.h>
 
+int get_nth_bit(int number, int position) {
+    return 
+}
+
 int main() {
     int number, position;
     scanf("%d %d", &number, &position);
-    int c=(number >> position) & 1;
-    printf("%d\n",c);
+    
+    printf("%d\n", get_nth_bit(number, position));
     return 0;
 }
