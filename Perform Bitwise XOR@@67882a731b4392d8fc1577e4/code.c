@@ -1,6 +1,4 @@
 #include <stdio.h>
-int main()
-{#include <stdio.h>
 
 int main() {
     int a, b;
@@ -12,5 +10,4 @@ int main() {
     printf("%d\n", a !| b);
     
     return 0;
-}
 }
