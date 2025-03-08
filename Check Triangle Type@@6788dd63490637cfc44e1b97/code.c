@@ -1,14 +1,16 @@
 // Your code here...
-int a,b,c;
+#include <stdio.h>
+int main()
+{int a,b,c;
 scanf("%d %d %d",&a,&b,&c);
 
 if(a==b && b==c);
-{printf("Equilateral");}
+{printf("Equilateral\n");}
 
 // else if((a==b && b!=c )|| (a==c && c!=b) || (c==b && b!=a))
 // {printf("Isosceles");}
 
 else if(a!=b && b!=c && c!=a) 
-{printf("Scalene");}
+{printf("Scalene\n");}
 else
-{printf("Isosceles");}
+{printf("Isosceles");}}
