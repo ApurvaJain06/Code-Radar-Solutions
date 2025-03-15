@@ -11,7 +11,8 @@ int main()
     {printf("*");
     for(j=1;j<=N-2;j++)
     {printf(" ");}
-    printf("*\n");
+    printf("*");
+    printf("\n");
     }
     for(i=1;i<=N;i++)
     {printf("*");}
