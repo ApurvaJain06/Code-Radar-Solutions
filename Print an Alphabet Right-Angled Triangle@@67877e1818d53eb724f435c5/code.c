@@ -9,15 +9,4 @@ int main() {
     printf("\n");}
     return 0;
 }
- {
-   
-
-    for (i = 1; i <= n; i++) {
-        for (char ch = 'A'; ch < 'A' + i; ch++) {
-            printf("%c", ch);
-        }
-        printf("\n");
-    }
-
-    return 0;
-}
+ 
