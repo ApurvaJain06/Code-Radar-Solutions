@@ -1,26 +1,12 @@
 #include <stdio.h>
-int main() 
+int main()
 {
-    int N,i,j,k;
+    int N;
     scanf("%d",&N);
-    for (i=1;i<=N/2;i++)
-    {
-        for(j=1;j<=(N-i)/2;j++)
-        {printf(" ");}
-        for(k=1;k<=i;k+=1)
-        {printf("*");}
-        printf("\n");
-    }
-    for (i=1;i<=N/2;i++)
-    {for(j=1;j<=i;j++)
-        {printf(" ");}
-        for(k=1;k<=(2*i)-1;k+=1)
-        {printf("*");}
-        printf("\n");
-       
-    }
-    
-    return 0;
-}
-
-
+    int i, j;
+    for (i=1;i<=N;i++)
+    {for(j=1;j<=N-i;j++)
+    {printf(" ");}
+    for(j=1;j<=2*i-1;j++)
+    {printf("*");}}
+}  
