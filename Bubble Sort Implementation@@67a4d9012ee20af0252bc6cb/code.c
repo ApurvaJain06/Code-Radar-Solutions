@@ -5,7 +5,7 @@ int main()
     int a[n];
     int i;
     for(i=1;i<=n;i++)
-    {scanf("%d ";&a[i]);}
+    {scanf("%d ",&a[i]);}
     for(i=1;i<=n;i++)
     {for(j=1;j<=n;j++)
     {if(a[i]>a[i+1])
